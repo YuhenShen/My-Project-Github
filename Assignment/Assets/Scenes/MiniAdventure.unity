@@ -204,6 +204,26 @@ PrefabInstance:
       value: Chest_Lod
       objectReference: {fileID: 0}
     - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
+      propertyPath: m_LODs.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0.061321814
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
+      propertyPath: m_LODs.Array.data[3].screenRelativeHeight
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
       propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
       value: 
       objectReference: {fileID: 0}
@@ -219,6 +239,10 @@ PrefabInstance:
       propertyPath: m_LODs.Array.data[1].renderers.Array.data[3].renderer
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[4].renderer
+      value: 
+      objectReference: {fileID: 91282793}
     - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
       propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
       value: 
@@ -236,6 +260,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[4].renderer
+      value: 
+      objectReference: {fileID: 91282793}
+    - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
       propertyPath: m_LODs.Array.data[3].renderers.Array.data[0].renderer
       value: 
       objectReference: {fileID: 0}
@@ -251,6 +279,10 @@ PrefabInstance:
       propertyPath: m_LODs.Array.data[3].renderers.Array.data[3].renderer
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
+      propertyPath: m_LODs.Array.data[3].renderers.Array.data[4].renderer
+      value: 
+      objectReference: {fileID: 91282793}
     - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
       propertyPath: m_LODs.Array.data[4].renderers.Array.data[0].renderer
       value: 
@@ -337,6 +369,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 166378062}
   m_SourcePrefab: {fileID: 100100000, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
+--- !u!23 &91282793 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -2083650707650906164, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
+  m_PrefabInstance: {fileID: 91282792}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &102159632 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
@@ -686,6 +723,22 @@ PrefabInstance:
       value: Chest_Lod (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
+      propertyPath: m_LODs.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
+      propertyPath: m_LODs.Array.data[3].screenRelativeHeight
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
       propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
       value: 
       objectReference: {fileID: 0}
@@ -701,6 +754,10 @@ PrefabInstance:
       propertyPath: m_LODs.Array.data[1].renderers.Array.data[3].renderer
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[4].renderer
+      value: 
+      objectReference: {fileID: 128328315}
     - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
       propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
       value: 
@@ -718,6 +775,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[4].renderer
+      value: 
+      objectReference: {fileID: 128328315}
+    - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
       propertyPath: m_LODs.Array.data[3].renderers.Array.data[0].renderer
       value: 
       objectReference: {fileID: 0}
@@ -733,6 +794,10 @@ PrefabInstance:
       propertyPath: m_LODs.Array.data[3].renderers.Array.data[3].renderer
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
+      propertyPath: m_LODs.Array.data[3].renderers.Array.data[4].renderer
+      value: 
+      objectReference: {fileID: 128328315}
     - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
       propertyPath: m_LODs.Array.data[4].renderers.Array.data[0].renderer
       value: 
@@ -819,6 +884,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 102159633}
   m_SourcePrefab: {fileID: 100100000, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
+--- !u!23 &128328315 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -2083650707650906164, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
+  m_PrefabInstance: {fileID: 128328314}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &141778560 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 211060118000718597, guid: a8cc610235c43164cb7d9665673d0322, type: 3}
@@ -1294,6 +1364,22 @@ PrefabInstance:
       value: Chest_Lod (1)
       objectReference: {fileID: 0}
     - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
+      propertyPath: m_LODs.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
+      propertyPath: m_LODs.Array.data[3].screenRelativeHeight
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
       propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
       value: 
       objectReference: {fileID: 0}
@@ -1309,6 +1395,10 @@ PrefabInstance:
       propertyPath: m_LODs.Array.data[1].renderers.Array.data[3].renderer
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[4].renderer
+      value: 
+      objectReference: {fileID: 220473289}
     - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
       propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
       value: 
@@ -1326,6 +1416,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[4].renderer
+      value: 
+      objectReference: {fileID: 220473289}
+    - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
       propertyPath: m_LODs.Array.data[3].renderers.Array.data[0].renderer
       value: 
       objectReference: {fileID: 0}
@@ -1341,6 +1435,10 @@ PrefabInstance:
       propertyPath: m_LODs.Array.data[3].renderers.Array.data[3].renderer
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
+      propertyPath: m_LODs.Array.data[3].renderers.Array.data[4].renderer
+      value: 
+      objectReference: {fileID: 220473289}
     - target: {fileID: 4742473837712756890, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
       propertyPath: m_LODs.Array.data[4].renderers.Array.data[0].renderer
       value: 
@@ -1427,6 +1525,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 102525900}
   m_SourcePrefab: {fileID: 100100000, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
+--- !u!23 &220473289 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -2083650707650906164, guid: 91524d78d4779874d89f5efec73040a7, type: 3}
+  m_PrefabInstance: {fileID: 220473288}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &300355029
 PrefabInstance:
   m_ObjectHideFlags: 0
